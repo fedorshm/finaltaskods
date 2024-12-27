@@ -11,3 +11,19 @@
 | Наука    | 17,4    | 23,8    |
 | Спорт    | 19,6    | 32,8    |
 | Наука+Спорт    | 22    | 27,5    |
+
+## Ссылки на модели в HuggingFace:
+
+### Обученные на "слабой" ruGPT-3 Small (125 млн параметров) на "больших" датасетах по 15,000 статей:
+
+- [Наука](https://huggingface.co/Gnider/nauka_6ep_15k)
+- [Спорт](https://huggingface.co/Gnider/sport_6ep_15k)
+- [Наука + Спорт](https://huggingface.co/Gnider/mix_6ep_15k)
+
+### Обученные на "сильной" ruGPT-3 Medium (350 млн параметров) на "маленьких" датасетах по 6,900 статей:
+
+- [Наука](https://huggingface.co/Gnider/nauka_6900_6ep_17_600_rugptmedium)
+- [Спорт](https://huggingface.co/Gnider/sport_6900_6ep_17_600_rugpt3medium)
+- [Наука + Спорт](https://huggingface.co/Gnider/mix_6900_6ep_17_600_tugpt3medium)
+
+## Файлы репозитория
